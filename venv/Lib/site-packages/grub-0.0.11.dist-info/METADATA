@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: grub
+Version: 0.0.11
+Summary: A ridiculously simple search engine
+Home-page: https://github.com/thorwhalen/grub
+Author: Thor Whalen
+Author-email: UNKNOWN
+License: apache-2.0
+Platform: any
+Requires-Dist: py2store
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
+
