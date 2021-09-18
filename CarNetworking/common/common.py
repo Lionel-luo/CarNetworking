@@ -72,7 +72,8 @@ class CommonWay:
     localRedConfig = readconfig.ReadConfig()
 
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
+        self.driver.maximize_window()
 
     def click(self, coordinate):
         """
@@ -157,7 +158,7 @@ class CommonWay:
                 pass
             else:
                 self.sendKey("//input[@placeholder='请输入验证码']", case_verificationcode)
-            self.click("//button[@class='Login-btn']")
+            self.click("/html/body/div[1]/div/form/div[3]/button")
             time.sleep(2.0)
             try:
                 Alert = self.driver.find_element(By.XPATH, '//*[@type="dialog"]')
@@ -240,13 +241,14 @@ class CommonWay:
                 try:
                     self.driver.find_element_by_xpath(data_test[i]).click()
                 except:
-                    self.driver.find_element_by_xpath(case_test[i]).sendKeys(data_test[i])
+                    send = self.driver.find_element_by_xpath(case_test[i])
+                    send.send_keys(data_test[i])
             time.sleep(2.0)
             button = self.driver.find_element(By.XPATH, '//*[@id="data-search-btn"]')
             self.driver.execute_script("arguments[0].click();", button)
             try:
-                Result = self.driver.find_element(By.XPATH, '/html/body/div[1]/div[6]/div[2]/div[1]/div/div/div/div[2]/'
-                                                            'div[2]').text
+                Result = self.driver.find_element(By.XPATH, '/html/body/div[1]/div[6]/div[2]/div[1]/div/div/div/div[2]/\
+                                                            div[2]').text
                 assert '无数据' not in Result or Result == expected
                 write_result(filename, sheetname, case_id + 1, 7, 'pass')
             except AssertionError:
@@ -349,8 +351,7 @@ class CommonWay:
         """
         WebDriverWait(self.driver, 10).until_not(EC.visibility_of_element_located((By.XPATH, '//*[@type="dialog"]')))
         cases = read_data(filename, sheetname, origin, destination)
-        self.click('/html/body/div[1]/div[6]/div[2]/div[1]/div/div/div/div[2]/div[4]/div[2]/table/tbody/tr[1]/td[3]/'
-                   'div')
+        self.click('/html/body/div[1]/div[6]/div[2]/div[1]/div/div/div/div[2]/div[4]/div[2]/table/tbody/tr[1]/td[3]/div')
         for case in cases:
             case_id = case['id']
             case_phone = case['username']
@@ -447,7 +448,8 @@ class CommonWay:
                 # 切换进frame中操作
                 self.driver.switch_to.frame(self.driver.find_element_by_tag_name('iframe'))
                 # 直接在body中输入
-                self.driver.find_element_by_tag_name('body').sendKeys(case_data)
+                send = self.driver.find_element_by_tag_name('body')
+                send.send_keys(case_data)
                 # 退出frame
                 self.driver.switch_to.default_content()
             self.click('//*[@id="btn-add-message"]')
@@ -473,3 +475,19 @@ class CommonWay:
                 self.click('//*[@id="message-create"]')
                 WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.XPATH,
                                                                                        '//*[@id="btn-add-message"]')))
+
+    # 清除之前的结果
+    def cleanResult(self, filename, sheetname):
+        """
+
+        Args:
+            filename: 文件名
+            sheetname: 表名
+
+        Returns:
+
+        """
+        document = openpyxl.load_workbook(filename)
+        sheet = document[sheetname]
+        for i in range(2, sheet.max_row + 1):
+            write_result(filename, sheetname, i, 7, "")

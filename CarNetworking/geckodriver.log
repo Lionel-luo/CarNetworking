@@ -16333,3 +16333,171 @@ JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1631928528573	geckodriver	INFO	Listening on 127.0.0.1:49689
+1631928531627	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofilebDTFrs"
+1631928532107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofilebDTFrs\\search.json.mozlz4", (void 0)))
+1631928534008	Marionette	INFO	Listening on port 49697
+1631928534302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1631928543667	Marionette	INFO	Stopped listening on port 49697
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631928568497	geckodriver	INFO	Listening on 127.0.0.1:59668
+1631928571539	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileKABjAI"
+1631928571818	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileKABjAI\\search.json.mozlz4", (void 0)))
+1631928573284	Marionette	INFO	Listening on port 59676
+1631928573576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631928579794	geckodriver	INFO	Listening on 127.0.0.1:59710
+1631928582851	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofilegD9jSe"
+1631928583163	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofilegD9jSe\\search.json.mozlz4", (void 0)))
+1631928584590	Marionette	INFO	Listening on port 59718
+1631928584907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1631928632289	geckodriver	INFO	Listening on 127.0.0.1:59782
+1631928635374	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofile5B5bmy"
+1631928635675	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofile5B5bmy\\search.json.mozlz4", (void 0)))
+1631928637302	Marionette	INFO	Listening on port 59790
+1631928637423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:442:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2091:35
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:159:24
+addWatcherDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:50:20
+_addWatcherDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:521:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:463:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+SourceActor threw an exception: Error: Failed to fetch https://restapi.amap.com/v3/log/init?s=rsv3&product=JsInit&key=aac358a9f0f4fe77c099995c0b79f59d&t=1631928755704&resolution=1920*1080&mob=0&vt=1&dpr=1&scale=1&detect=false&callback=jsonp_111387_&platform=JS&logversion=2.0&appname=http%3A%2F%2F192.168.24.13%3A8000%2Fresources%2Fv2%2Findex.html%23%2Fpage%2Fcar%2Ftrack.html&csid=DDC59539-9F1D-4F3B-932A-7845D1B8CFCF&sdkversion=1.4.17. Code 2152398862.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://restapi.amap.com/v3/log/init?s=rsv3&product=JsInit&key=aac358a9f0f4fe77c099995c0b79f59d&t=1631928755704&resolution=1920*1080&mob=0&vt=1&dpr=1&scale=1&detect=false&callback=jsonp_111387_&platform=JS&logversion=2.0&appname=http%3A%2F%2F192.168.24.13%3A8000%2Fresources%2Fv2%2Findex.html%23%2Fpage%2Fcar%2Ftrack.html&csid=DDC59539-9F1D-4F3B-932A-7845D1B8CFCF&sdkversion=1.4.17. Code 2152398862.", "resource://devtools/shared/DevToolsUtils.js", 556))
+SourceActor threw an exception: Error: Failed to fetch https://restapi.amap.com/v3/log/init?s=rsv3&product=JsModule&key=cba8b3ac0e572dca559e3a029fb360ca&m=labelcanvas&callback=jsonp_534957_&platform=JS&logversion=2.0&appname=http%3A%2F%2F192.168.24.13%3A8000%2Fresources%2Fv2%2Findex.html&csid=5BB6908F-C808-4DAD-B9ED-39D81F40A54A&sdkversion=1.4.17. Code 2152398862.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://restapi.amap.com/v3/log/init?s=rsv3&product=JsModule&key=cba8b3ac0e572dca559e3a029fb360ca&m=labelcanvas&callback=jsonp_534957_&platform=JS&logversion=2.0&appname=http%3A%2F%2F192.168.24.13%3A8000%2Fresources%2Fv2%2Findex.html&csid=5BB6908F-C808-4DAD-B9ED-39D81F40A54A&sdkversion=1.4.17. Code 2152398862.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://restapi.amap.com/v3/log/init?s=rsv3&product=JsInit&key=aac358a9f0f4fe77c099995c0b79f59d&t=1631928755704&resolution=1920*1080&mob=0&vt=1&dpr=1&scale=1&detect=false&callback=jsonp_111387_&platform=JS&logversion=2.0&appname=http%3A%2F%2F192.168.24.13%3A8000%2Fresources%2Fv2%2Findex.html%23%2Fpage%2Fcar%2Ftrack.html&csid=DDC59539-9F1D-4F3B-932A-7845D1B8CFCF&sdkversion=1.4.17. Code 2152398862.
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://restapi.amap.com/v3/log/init?s=rsv3&product=JsModule&key=cba8b3ac0e572dca559e3a029fb360ca&m=labelcanvas&callback=jsonp_534957_&platform=JS&logversion=2.0&appname=http%3A%2F%2F192.168.24.13%3A8000%2Fresources%2Fv2%2Findex.html&csid=5BB6908F-C808-4DAD-B9ED-39D81F40A54A&sdkversion=1.4.17. Code 2152398862.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+1631930825750	Marionette	INFO	Stopped listening on port 59790
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+port 59980
+1631928966095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631929396522	Marionette	INFO	Stopped listening on port 59980
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631934563993	geckodriver	INFO	Listening on 127.0.0.1:58825
+1631934567037	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileKzljNs"
+1631934567365	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileKzljNs\\search.json.mozlz4", (void 0)))
+1631934569040	Marionette	INFO	Listening on port 58833
+1631934569101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631934663319	Marionette	INFO	Stopped listening on port 58831631934664719	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileOw8JMd"
+1631934665021	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileOw8JMd\\search.json.mozlz4", (void 0)))
+1631934666623	Marionette	INFO	Listening on port 58928
+1631934666776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+1631934742108	Marionette	INFO	Stopped listening on port 58921631934742985	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofilesniCLJ"
+1631934743279	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofilesniCLJ\\search.json.mozlz4", (void 0)))
+1631934744728	Marionette	INFO	Listening on port 59005
+1631934745037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631934968888	Marionette	INFO	Stopped listening on port 59001631934971065	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofiletlDW7j"
+1631934971386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofiletlDW7j\\search.json.mozlz4", (void 0)))
+1631934972942	Marionette	INFO	Listening on port 59177
+1631934973115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:442:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2091:35
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:159:24
+addWatcherDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:50:20
+_addWatcherDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:521:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:463:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+1631935190681	geckodriver	INFO	Listening on 127.0.0.1:59286
+1631935193759	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileMV0dGD"
+1631935193984	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileMV0dGD\\search.json.mozlz4", (void 0)))
+1631935195340	Marionette	INFO	Listening on port 59294
+1631935195808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631935264316	Marionette	INFO	Stopped listening on port 59294
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
