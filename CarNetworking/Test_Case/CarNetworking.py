@@ -87,6 +87,11 @@ class CarNetworking(unittest.TestCase):
         self.common.screen('TSP后台自动化用例.xlsx', 'appmessage', 14, 21)
         self.common.messageCreate('TSP后台自动化用例.xlsx', 'appmessage', 22, 31)
 
+    def test_feedback(self):
+        self.common.cleanResult('TSP后台自动化用例.xlsx', 'feedback')
+        self.common.uiTest('TSP后台自动化用例.xlsx', 'feedback', 2, 17)
+        self.common.screen('TSP后台自动化用例.xlsx', 'feedback', 18,)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

@@ -16488,15 +16488,189 @@ receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFra
 Line: 670, column: 0
 console.error: ({})
 JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
-1631935190681	geckodriver	INFO	Listening on 127.0.0.1:59286
-1631935193759	mozrunner::runner	INFO	Running command: "C:\\Users\\00012165\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileMV0dGD"
-1631935193984	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\00012165\\AppData\\Local\\Temp\\rust_mozprofileMV0dGD\\search.json.mozlz4", (void 0)))
-1631935195340	Marionette	INFO	Listening on port 59294
-1631935195808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://webapi.amap.com/maps?v=1.4.13&key=aac358a9f0f4fe77c099995c0b79f59d&&plugin=AMap.Driving,AMap.DistrictSearch,AMap.Geocoder,AMap.LngLat,AMap.MarkerClusterer, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://webapi.amap.com/maps?v=1.4.15&key=cba8b3ac0e572dca559e3a029fb360ca&plugin=AMap.MouseTool, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1631935264316	Marionette	INFO	Stopped listening on port 59294
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 951))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:951:7
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1646:20
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new Error("Can not send request 'getAllSelectors' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+Error: Can not send request 'getAllSelectors' because front 'domnode' is already destroyed.: generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:28:15
+updateSelectionCssSelectors@resource://devtools/client/inspector/inspector.js:1447:32
+onNewSelection@resource://devtools/client/inspector/inspector.js:1518:10
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1646:20
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.24.13:8000"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+JavaScript error: http://192.168.24.13:8000/resources/v2/index.html#/page/app/app-message.html line 2 > injectedScript, line 408: ReferenceError: index is not defined
+1631960803006	Marionette	INFO	Stopped listening on port 59177
 JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
